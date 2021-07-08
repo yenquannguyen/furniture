@@ -1,0 +1,736 @@
+@charset "utf-8";
+/* CSS Document */
+
+.khunghinh
+{
+	width: 100%;
+	height: auto;
+	background-color:white;
+	font-family: final;
+	overflow: scroll;
+	scroll-behavior: smooth;
+}
+@font-face 
+{
+  font-family: final;
+  src: url("../font/UVNBaiSau_R.TTF");
+}
+.khunglogo
+{
+	width: 98.75%;
+	height: 120px;
+	background-color: white;
+	display: block;
+	position: fixed;
+	z-index: 10000;
+}
+.logocongty
+{
+	width: 10%;
+	height: 120px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 4%;
+}
+.khungtimkiem
+{
+	width: 90%;
+	height: 120px;
+	float: right;
+}
+.tk
+{
+	width: 100%;
+	height: 60px;
+	float: left;
+}
+.timkiem
+{
+	width: 85%;
+	height: 60px;
+	float: left;
+}
+.khungtaikhoan
+{
+	width: 15%;
+	height: 60px;
+	float: right;
+}
+.taikhoan
+{
+	width: 50%;
+	height: 30px;
+	float: left;
+	padding-top: 30px;
+	padding-left: 10px;
+	position: relative;
+}
+.taikhoan a:hover img
+{
+	color: white;
+}
+.taikhoan:hover img
+{
+	opacity: 0.7;
+}
+.taikhoan img
+{
+	transition: all 0.8s;
+}
+.khungmenu
+{
+	width: 100%;
+	height: 60px;
+	float: left;
+}
+.khungmenu ul li 
+{
+	list-style: none;
+	padding: 20px 55px 0px 55px;
+	float: left;
+}
+.khungmenu ul li a
+{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-size: 13pt;
+}
+.khungmenu ul li:hover a
+{
+	color: blue;
+}
+.hinhcd
+{
+	width: 100%;
+	height: 900px;
+}
+.uudai
+{
+	width: 100%;
+	height: 200px;
+}
+.khunguudai
+{
+	width: 25%;
+	height: 200px;
+	float: left;
+	padding-top: 75px;
+	font-size: 12pt;
+}
+.khunggioithieu
+{
+	width: 100%;
+	height: 650px;	
+}
+.kgt
+{
+	width: 50%;
+	height: 650px;
+	float: left;
+	overflow: hidden;
+}
+.gioithieu
+{
+	width: 100%;
+	height: 200px;
+	padding: 110px 0% 0px 8%;
+	font-size: 40pt;
+	animation: gioithieu1 1s 1s linear forwards;
+	opacity: 0;
+	position: relative;
+}
+@keyframes gioithieu1
+{
+	0%
+	{
+		opacity: 0;
+		top: -300px;
+	}
+	100%
+	{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.khunglessismore
+{
+	width: 100%;
+	height: 50px;
+	padding: 10px 5% 0px 8%;
+	font-size: 18pt;
+	font-style: italic;
+	animation: khunglessismore1 1s 1.5s linear forwards;
+	opacity: 0;
+	position: relative;
+}
+@keyframes khunglessismore1
+{
+	0%
+	{
+		opacity: 0;
+		left: -300px;
+	}
+	100%
+	{
+		opacity: 1;
+		left: 0px;
+	}
+}
+.vanban
+{
+	width: 100%;
+	height: 180px;
+	padding: 30px 5% 0px 8%;
+	font-size: 12pt;
+	animation: vanban1 1s 2.5s linear forwards;
+	opacity: 0;
+	position: relative;
+}
+@keyframes vanban1
+{
+	0%
+	{
+		opacity: 0;
+		left: -300px;
+	}
+	100%
+	{
+		opacity: 1;
+		left: 0px;
+	}
+}
+.nutplay
+{
+	width: 100%;
+	height: 220px;
+	overflow: hidden;
+}
+.hinhnutplay
+{
+	width: 20%;
+	height: 220px;
+	padding: 0px 0px 0px 20px;
+	float: left;
+	animation: hinhnutplay1 1s 3s linear forwards;
+	opacity: 0;
+	position: relative;
+}
+@keyframes hinhnutplay1
+{
+	0%
+	{
+		opacity: 0;
+		top: 300px;
+	}
+	100%
+	{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.chuvideo
+{
+	width: 80%;
+	height: 220px;
+	padding: 25px 0px 0px 0px;
+	float: right;
+	font-size: 23pt;
+	animation: chuvideo1 1s 3.5s linear forwards;
+	opacity: 0;
+	position: relative;
+}
+@keyframes chuvideo1
+{
+	0%
+	{
+		opacity: 0;
+		top: 300px;
+	}
+	100%
+	{
+		opacity: 1;
+		top: 0px;
+	}
+}
+.solieu
+{
+	width: 50%;
+	height: 650px;
+	float: right;
+}
+.solieu1
+{
+	width: 100%;
+	height: 300px;
+	padding-top: 90px;
+	float: left;
+	overflow: hidden;
+}
+.solieu2
+{
+	width: 100%;
+	height: 350px;
+	padding-top: 30px;
+	float: right;
+	overflow: hidden;
+}
+.sanpham
+{
+	width: 100%;
+	height: 150px;
+	padding-top: 40px;
+	padding-left: 40%;
+	background-color: black;
+	font-size: 40pt;
+}
+.hinhsp
+{
+	width: 100%;
+	height: 550px;	
+	padding-top: 20px;
+}
+.hinhsp1
+{
+	width: 43.5%;
+	height: 530px;
+	float: left;
+	border: 10px;
+	margin: 20px 1.5% 0px 3%;
+	position: relative;
+	overflow: hidden;
+}
+.hinhsp1 img
+{
+	width: 100%;
+	height: 530px;
+	object-fit: fill;
+}
+.hinhsp2
+{
+	width: 52%;
+	height: 550px;
+	float: right;
+}
+.hinhsp2_a
+{
+	width: 45%;
+	height: 550px;
+	float: left;
+	position: relative;
+}
+.hinhsp3
+{
+	width: 48%;
+	height: 530px;
+	float: right;
+	margin: 20px 5% 0px 2%;
+	position: relative;
+	overflow: hidden;
+}
+.hinhsp2_a1
+{
+	width: 96%;
+	height: 255px;
+	float: left;
+	margin: 20px 2% 0px 2%;	
+	overflow: hidden;
+}
+.hinhsp2_a2
+{
+	width: 96%;
+	height: 275px;
+	margin: 20px 2% 0px 2%;
+	padding-top: 20px;
+	overflow: hidden;
+}
+.hinhsp2_a1 img
+{
+	width: 100%;
+	height: 255px;
+	object-fit: fill;
+}
+.hinhsp2_a2 img
+{
+	width: 100%;
+	height: 275px;
+	object-fit: fill;
+}
+.hinhsp3 img
+{
+	width: 100%;
+	height: 530px;
+	object-fit: fill;
+}
+.dannhan
+{
+	width: 130px;
+	height: 50px;
+	position: absolute;
+	top:280px;
+	left:220px;
+	opacity: 0;
+	padding: 8px 10px 10px 10px;
+	border-radius: 60px;
+	font-size: 20pt;
+}
+.hinhsp1:hover .dannhan
+{
+	opacity: 1;
+	transform: translateY(-50px);
+	background:#585858;
+}
+.hinhsp1 .dannhan
+{
+	transition: all 0.5s;
+	transform: translateY(0px);
+}
+.hinhsp1:hover img
+{
+	opacity: 0.1;
+	transform: scale(1.1);
+}
+.hinhsp1 img
+{
+	transition: all 0.5s;
+}
+.dannhan1
+{
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top:170px;
+	left:100px;
+	opacity: 0;
+	padding: 5px 10px 10px 10px;
+	border-radius: 60px;
+	font-size: 14pt;
+}
+.hinhsp2_a1:hover .dannhan1
+{
+	opacity: 1;
+	transform: translateY(-50px);
+	background:#585858;
+}
+.hinhsp2_a1 .dannhan1
+{
+	transition: all 0.5s;
+	transform: translateY(0px);
+}
+.hinhsp2_a1:hover img
+{
+	opacity: 0.1;
+	transform: scale(1.1);
+}
+.hinhsp2_a1 img
+{
+	transition: all 0.5s;
+}
+.dannhan2
+{
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top:430px;
+	left:100px;
+	opacity: 0;
+	padding: 7px 10px 10px 10px;
+	border-radius: 60px;
+	font-size: 14pt;
+}
+.hinhsp2_a2:hover .dannhan2
+{
+	opacity: 1;
+	transform: translateY(-50px);
+	background:#585858;
+}
+.hinhsp2_a2 .dannhan2
+{
+	transition: all 0.5s;
+	transform: translateY(0px);
+}
+.hinhsp2_a2:hover img
+{
+	opacity: 0.1;
+	transform: scale(1.1);
+}
+.hinhsp2_a2 img
+{
+	transition: all 0.5s;
+}
+.dannhan3
+{
+	width: 130px;
+	height: 50px;
+	position: absolute;
+	top:280px;
+	left:110px;
+	opacity: 0;
+	padding: 5px 10px 10px 8px;
+	border-radius: 60px;
+	font-size: 20pt;
+}
+.hinhsp3:hover .dannhan3
+{
+	opacity: 1;
+	transform: translateY(-50px);
+	background:#585858;
+}
+.hinhsp3 .dannhan3
+{
+	transition: all 0.5s;
+	transform: translateY(0px);
+}
+.hinhsp3:hover img
+{
+	opacity: 0.1;
+	transform: scale(1.1);
+}
+.hinhsp3 img
+{
+	transition: all 0.5s;
+}
+.khungchude
+{
+	width: 100%;
+	height: 170px;
+	font-size: 40pt;
+	padding-top: 120px;
+	padding-left: 32%;
+	font-weight: bold;
+}
+.chude
+{
+	width: 100%;
+	height: 800px;
+}
+.chude_cc
+{
+	width: 45.5%;
+	height: 350px;
+	float: left;
+	border: 10px;
+	margin: 30px 1.5% 20px 3%;
+	position: relative;
+	overflow: hidden;
+}
+.chude_cc2
+{
+	width: 45.5%;
+	height: 350px;
+	float: left;
+	border: 10px;
+	margin: 30px 3% 20px 1.5%;
+	position: relative;
+	overflow: hidden;
+}
+.chude_cc img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+.chude_cc2 img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+.dannhan4
+{
+	width: 450px;
+	height: 60px;
+	position: absolute;
+	top:190px;
+	left:65px;
+	opacity: 0;
+	padding: 12px 10px 10px 10px;
+	border-radius: 60px;
+	font-size: 20pt;
+}
+.chude_cc:hover .dannhan4
+{
+	opacity: 1;
+	transform: translateY(-50px);
+}
+.chude_cc .dannhan4
+{
+	transition: all 0.5s;
+	transform: translateY(0px);
+}
+.chude_cc:hover img
+{
+	opacity: 0.1;
+	transform: scale(1.1);
+}
+.chude_cc img
+{
+	transition: all 0.5s;
+}
+.dannhan5
+{
+	width: 450px;
+	height: 60px;
+	position: absolute;
+	top:190px;
+	left:65px;
+	opacity: 0;
+	padding: 12px 10px 10px 10px;
+	border-radius: 60px;
+	font-size: 20pt;
+}
+.chude_cc2:hover .dannhan5
+{
+	opacity: 1;
+	transform: translateY(-50px);
+}
+.chude_cc2 .dannhan5
+{
+	transition: all 0.5s;
+	transform: translateY(0px);
+}
+.chude_cc2:hover img
+{
+	opacity: 0.1;
+	transform: scale(1.1);
+}
+.chude_cc2 img
+{
+	transition: all 0.5s;
+}
+.taitro
+{
+	width: 100%;
+	height: 130px;
+}
+.taitro img
+{
+	width: 100%;
+	height: 130px;
+	object-fit: fill;
+}
+.khoangtrang
+{
+	width: 100%;
+	height: 100px;
+}
+.ketthuc
+{
+	width: 100%;
+	height: 520px;
+	background-color: black;
+	color: white;
+}
+.dktv
+{
+	width: 50%;
+	height: 520px;
+	float: left;
+}
+.tuvan
+{
+	width: 100%;
+	height: 100px;
+	float: left;
+	padding-left: 40px;
+	padding-top: 50px;
+	font-size: 25pt;
+	font-weight: bold;
+}
+.dktuvan
+{
+	width: 100%;
+	height: 520px;
+	padding-left: 40px;
+}
+.lienhe
+{
+	width: 50%;
+	height: 520px;
+	float: right;
+}
+.lh
+{
+	width: 100%;
+	height: 100px;
+	float: left;
+	padding-left: 200px;
+	padding-top: 50px;
+	font-size: 25pt;
+	font-weight: bold;
+}
+.diachi
+{
+	width: 100%;
+	height: 350px;
+	padding-left: 200px;
+	font-size: 12pt;
+}
+.mangxh
+{
+	width: 100%;
+	height: 170px;
+}
+.bieutuong
+{
+	width: 16%;
+	height: 170px;
+	float: left;
+	padding-top: 20px;
+	position: relative;
+}
+.khoangtrong
+{
+	width: 4%;
+	height: 170px;
+	float: right;
+}
+.bieutuong a:hover img
+{
+	color: white;
+}
+.bieutuong:hover img
+{
+	opacity: 0.7;
+}
+.bieutuong img
+{
+	transition: all 0.5s;
+}
+.dktuvan table
+{
+	width: 80%;
+	
+}
+.dktuvan table tr td
+{
+	font-size: 12pt;
+}
+input
+{
+	width: 90%;
+	height: 40px;
+	border-radius: 30px;
+	border: none;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+textarea
+{
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;	
+	border-radius: 10px;
+	border: none;
+}
+.dktuvan button
+{
+	border-radius: 30px;
+	background-color: whitesmoke;
+	color: black;
+	border: none;
+}
+
+
+
